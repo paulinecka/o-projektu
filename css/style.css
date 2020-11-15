@@ -7,4 +7,50 @@ sm: (min-width: 576px) and (max-width: 767px)
 md: (min-width: 768px) and (max-width: 991px)
 lg: (min-width: 992px) and (max-width: 1199px)
 xl: (min-width: 1200px)
+*/
 
+body {
+  background-color: bisque;
+}
+
+.popis-projektu,
+.popis-pavlina,
+.popis-natalie {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.img-clock {
+  height: 300px;
+  border-radius: 10%;
+}
+
+.kontejner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bg-light {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.kontejner-pav,
+.kontejner-nat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popis-img {
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.pavlina-img {
+  height: 200px;
+  margin-left: 200px;
+}
